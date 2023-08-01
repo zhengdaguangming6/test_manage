@@ -10,7 +10,8 @@ Vue.use(VueAxios, axios)
 
 
 // 设置默认值
-axios.defaults.baseURL = 'http://127.0.0.1:8000/api/';
+// axios.defaults.baseURL = 'http://127.0.0.1:8000/api/';
+axios.defaults.baseURL = 'http://api.whattest.top';
 // axios.defaults.headers['Authorization'] = getToken();  //只是在页面刷新时才执行
 // axios.defaults.headers.post['Content-Type'] = 'application/json';
 // axios.defaults.headers.put['Content-Type'] = 'application/json';
